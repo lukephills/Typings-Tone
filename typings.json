@@ -1,0 +1,9 @@
+{
+  "name":"react-sparklines",
+  "main":"react-sparklines.d.ts",
+  "author": "Andrew Ross",
+  "ambient" : false,  
+  "ambientDependencies": {
+    "react": "github:DefinitelyTyped/DefinitelyTyped/react/react.d.ts#2cad4a3cff770c37b40496188c246b1a60e87e2d"
+  }
+}
