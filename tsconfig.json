@@ -2,8 +2,10 @@
 	"compilerOptions": {
 		"target": "es6",
 		"noEmit": true,
-		"jsx": "react"
+		"jsx": "react"		
 	},
 	"files": [		
+	],
+	"excludes":[		
 	]
 }

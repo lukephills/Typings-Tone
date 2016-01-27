@@ -1,0 +1,5 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+	"typescript.useCodeSnippetsOnMethodSuggest": true,
+	"typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib"
+}

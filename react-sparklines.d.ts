@@ -1,7 +1,9 @@
+/// <reference path="typings/main.d.ts" />
+
 declare module sparkline {
-	import React = __React;
-	
-	export interface ISparklinesProps  {
+	import * as React  from "react";
+
+	export interface ISparklinesProps {
 		data: number[];
 
 		limit?: number;
@@ -16,18 +18,18 @@ declare module sparkline {
 
 		max?: number;
 	}
-	
-	export class Sparklines extends React.Component<ISparklinesProps,{}>{}
-	
-	export class SparklinesLine extends React.Component<{color?:string, style?:React.CSSProperties},{}>{}
-	
-	export class SparklinesReferenceLine extends React.Component<{type:string},{}>{}
-	
-	export class SparklinesNormalBand extends React.Component<{},{}>{}
-	
-	export class SparklinesSpots extends React.Component<{},{}>{}
-	
-	export class SparklinesBars extends React.Component<{},{}>{}
+
+	export class Sparklines extends React.Component<ISparklinesProps, {}>{ }
+
+	export class SparklinesLine extends React.Component<{ color?: string, style?: React.CSSProperties }, {}>{ }
+
+	export class SparklinesReferenceLine extends React.Component<{ type: string }, {}>{ }
+
+	export class SparklinesNormalBand extends React.Component<{}, {}>{ }
+
+	export class SparklinesSpots extends React.Component<{}, {}>{ }
+
+	export class SparklinesBars extends React.Component<{}, {}>{ }
 }
 
 export = sparkline;
