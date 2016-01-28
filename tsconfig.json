@@ -1,8 +1,7 @@
 {
 	"compilerOptions": {
-		"target": "es6",
-		"noEmit": true,
-		"jsx": "react"		
+		"target": "es5",
+		"noEmit": true
 	},
 	"files": [		
 	],
