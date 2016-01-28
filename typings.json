@@ -2,5 +2,5 @@
   "name":"tone",
   "main":"tone.d.ts",
   "author": "Luke Phillips",
-  "ambient" : false
+  "ambient" : true
 }
